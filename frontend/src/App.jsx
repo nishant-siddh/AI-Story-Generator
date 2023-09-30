@@ -60,7 +60,6 @@ function App() {
   return (
     <>
       <div>
-        <Header />
         <main className="flex gap-2 h-[90vh]">
           <SideBar />
           <div className="flex flex-col justify-between border w-[90%]">
