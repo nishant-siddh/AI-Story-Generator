@@ -3,7 +3,7 @@ import React from 'react';
 function StoryOutput({ generatedStory, prompt }) {
 
     async function handleSetStory() {
-        const response = await fetch('http://localhost:3000/api/setStories', {
+        const response = await fetch('https://ai-story-generator-backend.onrender.com/api/setStories', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
